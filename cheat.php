@@ -427,7 +427,7 @@ do
 
 		if( $LocalScriptHash !== $RepositoryScriptHash )
 		{
-			Msg( '-- {lightred}Le Script a une mise a jour, télécharge le ici : ' );
+			Msg( '-- {lightred}Le Script a une mise a jour, tÃ©lÃ©charge le ici : ' );
 		}
 	}
 
@@ -1111,3 +1111,4 @@ function Msg( $Message, $EOL = PHP_EOL, $printf = [] )
 		echo $Message;
 	}
 }
+
